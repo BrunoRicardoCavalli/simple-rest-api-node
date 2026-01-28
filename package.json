@@ -1,0 +1,26 @@
+{
+  "name": "simple-rest-api-node",
+  "version": "1.0.0",
+  "description": "Projeto de API REST desenvolvido com Node.js e MySQL, com o objetivo de praticar a criação de um CRUD básico para cadastro de pessoas (nome e CPF), utilizando boas práticas de organização e comunicação com banco de dados relacional.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoRicardoCavalli/simple-rest-api-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BrunoRicardoCavalli/simple-rest-api-node/issues"
+  },
+  "homepage": "https://github.com/BrunoRicardoCavalli/simple-rest-api-node#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mysql2": "^3.16.2"
+  }
+}
